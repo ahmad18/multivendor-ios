@@ -1,0 +1,6 @@
+framework module Pods_Multivendor {
+  umbrella header "Pods-Multivendor-umbrella.h"
+
+  export *
+  module * { export * }
+}

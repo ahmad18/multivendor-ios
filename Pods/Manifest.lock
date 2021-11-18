@@ -1,0 +1,77 @@
+PODS:
+  - Alamofire (4.6.0)
+  - AlamofireImage (3.3.0):
+    - Alamofire (~> 4.5)
+  - Braintree/Card (4.10.0):
+    - Braintree/Core
+  - Braintree/Core (4.10.0)
+  - Braintree/UnionPay (4.10.0):
+    - Braintree/Card
+    - Braintree/Core
+  - BraintreeDropIn (5.3.0):
+    - BraintreeDropIn/DropIn (= 5.3.0)
+  - BraintreeDropIn/DropIn (5.3.0):
+    - Braintree/Card (~> 4.0)
+    - Braintree/Core (~> 4.0)
+    - Braintree/UnionPay (~> 4.0)
+    - BraintreeDropIn/UIKit
+  - BraintreeDropIn/UIKit (5.3.0)
+  - DrawerController (3.1.1):
+    - DrawerController/Core (= 3.1.1)
+    - DrawerController/DrawerVisualStates (= 3.1.1)
+  - DrawerController/Core (3.1.1)
+  - DrawerController/DrawerVisualStates (3.1.1):
+    - DrawerController/Core
+  - ImageSlideshow (1.4.1):
+    - ImageSlideshow/Core (= 1.4.1)
+  - ImageSlideshow/Alamofire (1.4.1):
+    - AlamofireImage (~> 3.0)
+    - ImageSlideshow/Core
+  - ImageSlideshow/Core (1.4.1)
+  - IQKeyboardManagerSwift (5.0.0)
+  - KMPlaceholderTextView (1.3.0)
+  - Material (2.13.1):
+    - Material/Core (= 2.13.1)
+  - Material/Core (2.13.1):
+    - Motion (~> 1.3.0)
+  - MBProgressHUD (1.0.0)
+  - Motion (1.3.1):
+    - Motion/Core (= 1.3.1)
+  - Motion/Core (1.3.1)
+  - SkyFloatingLabelTextField (3.4.0)
+  - SVProgressHUD (2.2.2)
+  - TTTAttributedLabel (2.0.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.5)
+  - BraintreeDropIn
+  - DrawerController (~> 3.1.0)
+  - ImageSlideshow (~> 1.4)
+  - ImageSlideshow/Alamofire
+  - IQKeyboardManagerSwift (= 5.0.0)
+  - KMPlaceholderTextView (~> 1.3.0)
+  - Material (~> 2.0)
+  - MBProgressHUD (~> 1.0.0)
+  - SkyFloatingLabelTextField (~> 3.0)
+  - SVProgressHUD
+  - TTTAttributedLabel (~> 2.0)
+
+SPEC CHECKSUMS:
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  AlamofireImage: 2e784dc5d00f04903a52c1d169181469c805c3df
+  Braintree: 424a8b0bf1d31fe1110035cfde438701e1425c1a
+  BraintreeDropIn: 5882cca8dc3c4a5b8f11faa44fca52323253c857
+  DrawerController: 2a5aa099e61a921359857bfe580f655055b0444c
+  ImageSlideshow: 1bb0e610e28a71e8936d57265d882f61714a470b
+  IQKeyboardManagerSwift: 3f340202ebe1a7076279b9b9b3c817243ddb3aab
+  KMPlaceholderTextView: 2bbcd19a273648a80a61e1e48f9743a24d8930e3
+  Material: 3aea3e3696b0f11bfa76d1a367b44a9a4231c9b8
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  Motion: 7256a3337b65fa745a1f4881596f936fbe5c7532
+  SkyFloatingLabelTextField: 703aa1420b697392b1e7dba25571180dde018477
+  SVProgressHUD: 59b2d3dabacbd051576d21d32293ca7228dc18b0
+  TTTAttributedLabel: 8cffe8e127e4e82ff3af1e5386d4cd0ad000b656
+
+PODFILE CHECKSUM: 61f39c80f535438c1ff23cb090391a3bbf21df2a
+
+COCOAPODS: 1.3.1
